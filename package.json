@@ -1,0 +1,25 @@
+{
+  "name": "simple-docker-example",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Annika86/simple-docker-example.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn esbuild src/index.tsx --bundle --minify --outdir=public/dist",
+    "dev": "yarn esbuild src/index.tsx --bundle --outdir=public/dist --watch",
+    "start": "node src/server.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.17.14",
+    "koa": "^2.14.1",
+    "koa-static": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11"
+  }
+}
