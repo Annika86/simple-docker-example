@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Simple Docker Example CI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  client:
+  build:
       runs-on: ubuntu-latest
 
       strategy:
