@@ -5,8 +5,8 @@
   "repository": "https://github.com/Annika86/simple-docker-example.git",
   "license": "MIT",
   "scripts": {
-    "build": "yarn esbuild src/index.tsx --bundle --minify --outdir=public/dist",
-    "dev": "yarn esbuild src/index.tsx --bundle --outdir=public/dist --watch",
+    "build": "yarn esbuild src/index.tsx --bundle --minify --outdir=public/dist --target=es2015",
+    "dev": "yarn esbuild src/index.tsx --bundle --outdir=public/dist --target=es2015 --watch",
     "start": "node src/server.ts"
   },
   "dependencies": {
