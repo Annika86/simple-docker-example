@@ -13,13 +13,13 @@
     "esbuild": "^0.25.2",
     "koa": "^2.16.1",
     "koa-static": "^5.0.0",
-    "react": "^19.0.0",
+    "react": "^19.1.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@types/koa": "^2.15.0",
-    "@types/react": "^19.0.12",
+    "@types/react": "^19.1.0",
     "@types/react-dom": "^19.0.4"
   }
 }
