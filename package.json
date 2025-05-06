@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "esbuild": "^0.25.3",
-    "koa": "^2.16.1",
+    "koa": "^3.0.0",
     "koa-static": "^5.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
