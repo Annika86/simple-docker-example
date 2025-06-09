@@ -10,7 +10,7 @@
     "start": "node src/server.ts"
   },
   "dependencies": {
-    "esbuild": "^0.25.4",
+    "esbuild": "^0.25.5",
     "koa": "^3.0.0",
     "koa-static": "^5.0.0",
     "react": "^19.1.0",
