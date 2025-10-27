@@ -18,7 +18,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/koa": "^3.0.0",
+    "@types/koa": "^3.0.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2"
   }
